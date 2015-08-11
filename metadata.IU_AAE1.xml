@@ -1,0 +1,1182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xseed version="1.1">
+  <volume_index_control_header>
+    <volume_identifier blockette="010">
+      <beginning_time>1950-01-01T00:00:00.000000Z</beginning_time>
+      <end_time>2500-01-01T00:00:00.000000Z</end_time>
+      <volume_time>2013-08-28T05:59:03.000000Z</volume_time>
+      <originating_organization>USGS/Albuquerque Seismological Laboratory</originating_organization>
+      <label>DATALESS.IU_AAE1</label>
+    </volume_identifier>
+    <volume_station_header_index blockette="011">
+      <number_of_stations>1</number_of_stations>
+      <station_identifier>
+        <station_identifier_code>AAE1</station_identifier_code>
+      </station_identifier>
+    </volume_station_header_index>
+    <volume_timespan_index blockette="012">
+      <number_of_spans_in_table>0</number_of_spans_in_table>
+    </volume_timespan_index>
+  </volume_index_control_header>
+  <abbreviation_dictionary_control_header>
+    <data_format_dictionary blockette="030">
+      <short_descriptive_name>Steim1 Integer Compression Format</short_descriptive_name>
+      <data_format_identifier_code>1</data_format_identifier_code>
+      <data_family_type>50</data_family_type>
+      <number_of_decoder_keys>6</number_of_decoder_keys>
+      <decoder_keys>F1 P4 W4 D0-31 C2 R1 P8 W4 D0-31 C2</decoder_keys>
+      <decoder_keys>P0 W4 N15 S2,0,1</decoder_keys>
+      <decoder_keys>T0 X N0 W4 D0-31 C2</decoder_keys>
+      <decoder_keys>T1 N0 W1 D0-7 C2 N1 W1 D0-7 C2 N2 W1 D0-7 C2 N3 W1 D0-7 C2</decoder_keys>
+      <decoder_keys>T2 N0 W2 D0-15 C2 N1 W2 D0-15 C2</decoder_keys>
+      <decoder_keys>T3 N0 W4 D0-31 C2</decoder_keys>
+    </data_format_dictionary>
+    <generic_abbreviation blockette="033">
+      <abbreviation_lookup_code>1</abbreviation_lookup_code>
+      <abbreviation_description>(GSN) IRIS/USGS (IU) and Addis Ababa Univ.</abbreviation_description>
+    </generic_abbreviation>
+    <generic_abbreviation blockette="033">
+      <abbreviation_lookup_code>2</abbreviation_lookup_code>
+      <abbreviation_description>Guralp CMG3-T Seismometer</abbreviation_description>
+    </generic_abbreviation>
+    <units_abbreviations blockette="034">
+      <unit_lookup_code>1</unit_lookup_code>
+      <unit_name>A</unit_name>
+      <unit_description>Amperes</unit_description>
+    </units_abbreviations>
+    <units_abbreviations blockette="034">
+      <unit_lookup_code>2</unit_lookup_code>
+      <unit_name>COUNTS</unit_name>
+      <unit_description>Digital Counts</unit_description>
+    </units_abbreviations>
+    <units_abbreviations blockette="034">
+      <unit_lookup_code>3</unit_lookup_code>
+      <unit_name>M/S</unit_name>
+      <unit_description>Velocity in Meters Per Second</unit_description>
+    </units_abbreviations>
+    <units_abbreviations blockette="034">
+      <unit_lookup_code>4</unit_lookup_code>
+      <unit_name>V</unit_name>
+      <unit_description>Volts</unit_description>
+    </units_abbreviations>
+  </abbreviation_dictionary_control_header>
+  <station_control_header>
+    <station_identifier blockette="050">
+      <station_call_letters>AAE1</station_call_letters>
+      <latitude>+9.029200</latitude>
+      <longitude>+38.765600</longitude>
+      <elevation>+2442.0</elevation>
+      <number_of_channels>0</number_of_channels>
+      <number_of_station_comments>0</number_of_station_comments>
+      <site_name>Addis Ababa, Ethiopia</site_name>
+      <network_identifier_code>/xseed/abbreviation_dictionary_control_header/generic_abbreviation/abbreviation_lookup_code[text()="1"]/parent::*</network_identifier_code>
+      <word_order_32bit>3210</word_order_32bit>
+      <word_order_16bit>10</word_order_16bit>
+      <start_effective_date>1994-12-11T23:59:59.000000Z</start_effective_date>
+      <end_effective_date>1997-09-15T23:59:59.000000Z</end_effective_date>
+      <update_flag>N</update_flag>
+      <network_code>IU</network_code>
+    </station_identifier>
+    <channel_identifier blockette="052">
+      <location_identifier></location_identifier>
+      <channel_identifier>SHZ</channel_identifier>
+      <subchannel_identifier>0</subchannel_identifier>
+      <instrument_identifier>/xseed/abbreviation_dictionary_control_header/generic_abbreviation/abbreviation_lookup_code[text()="2"]/parent::*</instrument_identifier>
+      <optional_comment></optional_comment>
+      <units_of_signal_response>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="3"]/parent::*</units_of_signal_response>
+      <units_of_calibration_input>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="1"]/parent::*</units_of_calibration_input>
+      <latitude>+9.029200</latitude>
+      <longitude>+38.765600</longitude>
+      <elevation>+2442.0</elevation>
+      <local_depth>0.0</local_depth>
+      <azimuth>0.0</azimuth>
+      <dip>-90.0</dip>
+      <data_format_identifier_code>/xseed/abbreviation_dictionary_control_header/data_format_dictionary/data_format_identifier_code[text()="1"]/parent::*</data_format_identifier_code>
+      <data_record_length>12</data_record_length>
+      <sample_rate>4.0000E+01</sample_rate>
+      <max_clock_drift>0.0000E+00</max_clock_drift>
+      <number_of_comments>0</number_of_comments>
+      <channel_flags>CG</channel_flags>
+      <start_date>1994-12-11T23:59:59.000000Z</start_date>
+      <end_date>1997-09-15T23:59:59.000000Z</end_date>
+      <update_flag>N</update_flag>
+    </channel_identifier>
+    <response_poles_and_zeros blockette="053">
+      <transfer_function_types>A</transfer_function_types>
+      <stage_sequence_number>1</stage_sequence_number>
+      <stage_signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="3"]/parent::*</stage_signal_input_units>
+      <stage_signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="4"]/parent::*</stage_signal_output_units>
+      <A0_normalization_factor>+3.62270E+16</A0_normalization_factor>
+      <normalization_frequency>+1.00000E-01</normalization_frequency>
+      <number_of_complex_zeros>2</number_of_complex_zeros>
+      <complex_zero>
+        <real_zero>+0.00000E+00</real_zero>
+        <imaginary_zero>+0.00000E+00</imaginary_zero>
+        <real_zero_error>+0.00000E+00</real_zero_error>
+        <imaginary_zero_error>+0.00000E+00</imaginary_zero_error>
+        <real_zero>+0.00000E+00</real_zero>
+        <imaginary_zero>+0.00000E+00</imaginary_zero>
+        <real_zero_error>+0.00000E+00</real_zero_error>
+        <imaginary_zero_error>+0.00000E+00</imaginary_zero_error>
+      </complex_zero>
+      <number_of_complex_poles>9</number_of_complex_poles>
+      <complex_pole>
+        <real_pole>-4.44221E-02</real_pole>
+        <imaginary_pole>+1.23339E-02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.44221E-02</real_pole>
+        <imaginary_pole>-1.23339E-02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-3.09761E+02</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.84726E+03</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.46546E+01</real_pole>
+        <imaginary_pole>+1.37413E+02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.46546E+01</real_pole>
+        <imaginary_pole>-1.37413E+02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.16930E+02</real_pole>
+        <imaginary_pole>+8.49487E+01</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.16930E+02</real_pole>
+        <imaginary_pole>-8.49487E+01</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.44512E+02</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+      </complex_pole>
+    </response_poles_and_zeros>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>1</stage_sequence_number>
+      <sensitivity_gain>+2.01340E+03</sensitivity_gain>
+      <frequency>+2.00000E-02</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>2</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="4"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>0</number_of_numerators>
+      <numerators></numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>2</stage_sequence_number>
+      <input_sample_rate>5.1200E+03</input_sample_rate>
+      <decimation_factor>1</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+0.0000E+00</estimated_delay>
+      <correction_applied>+0.0000E+00</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>2</stage_sequence_number>
+      <sensitivity_gain>+4.19430E+05</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>3</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>64</number_of_numerators>
+      <numerators>-1.09707E-03 +0.00000E+00 -9.93327E-04 +0.00000E+00 -1.33316E-03 +0.00000E+00 -1.70526E-03 +0.00000E+00 -2.05384E-03 +0.00000E+00 -2.35065E-03 +0.00000E+00 -2.57156E-03 +0.00000E+00 -2.69373E-03 +0.00000E+00 -2.69337E-03 +0.00000E+00 -2.54709E-03 +0.00000E+00 -2.23115E-03 +0.00000E+00 -1.72301E-03 +0.00000E+00 -9.99270E-04 +0.00000E+00 -3.46562E-05 +0.00000E+00 +1.21980E-03 +0.00000E+00 +3.11383E-03 +0.00000E+00 +6.89755E-03 +0.00000E+00 +8.96712E-03 +0.00000E+00 +1.23598E-02 +0.00000E+00 +1.60748E-02 +0.00000E+00 +1.99682E-02 +0.00000E+00 +2.39632E-02 +0.00000E+00 +2.79916E-02 +0.00000E+00 +3.19878E-02 +0.00000E+00 +3.58841E-02 +0.00000E+00 +3.96135E-02 +0.00000E+00 +4.31082E-02 +0.00000E+00 +4.63032E-02 +0.00000E+00 +4.91314E-02 +0.00000E+00 +5.15184E-02 +0.00000E+00 +5.33261E-02 +0.00000E+00 +5.35984E-02 +0.00000E+00 +5.35984E-02 +0.00000E+00 +5.33261E-02 +0.00000E+00 +5.15184E-02 +0.00000E+00 +4.91314E-02 +0.00000E+00 +4.63032E-02 +0.00000E+00 +4.31082E-02 +0.00000E+00 +3.96135E-02 +0.00000E+00 +3.58841E-02 +0.00000E+00 +3.19878E-02 +0.00000E+00 +2.79916E-02 +0.00000E+00 +2.39632E-02 +0.00000E+00 +1.99682E-02 +0.00000E+00 +1.60748E-02 +0.00000E+00 +1.23598E-02 +0.00000E+00 +8.96712E-03 +0.00000E+00 +6.89755E-03 +0.00000E+00 +3.11383E-03 +0.00000E+00 +1.21980E-03 +0.00000E+00 -3.46562E-05 +0.00000E+00 -9.99270E-04 +0.00000E+00 -1.72301E-03 +0.00000E+00 -2.23115E-03 +0.00000E+00 -2.54709E-03 +0.00000E+00 -2.69337E-03 +0.00000E+00 -2.69373E-03 +0.00000E+00 -2.57156E-03 +0.00000E+00 -2.35065E-03 +0.00000E+00 -2.05384E-03 +0.00000E+00 -1.70526E-03 +0.00000E+00 -1.33316E-03 +0.00000E+00 -9.93327E-04 +0.00000E+00 -1.09707E-03 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>3</stage_sequence_number>
+      <input_sample_rate>5.1200E+03</input_sample_rate>
+      <decimation_factor>16</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+6.0000E-03</estimated_delay>
+      <correction_applied>+6.0000E-03</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>3</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>4</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>72</number_of_numerators>
+      <numerators>+1.53855E-04 +0.00000E+00 +3.12770E-04 +0.00000E+00 +4.52861E-04 +0.00000E+00 +3.95780E-04 +0.00000E+00 -4.84389E-05 +0.00000E+00 -9.92496E-04 +0.00000E+00 -2.35471E-03 +0.00000E+00 -3.78932E-03 +0.00000E+00 -4.72855E-03 +0.00000E+00 -4.56471E-03 +0.00000E+00 -2.93407E-03 +0.00000E+00 +7.16545E-06 +0.00000E+00 +3.46095E-03 +0.00000E+00 +6.13788E-03 +0.00000E+00 +6.69753E-03 +0.00000E+00 +4.35528E-03 +0.00000E+00 -5.88914E-04 +0.00000E+00 -6.57815E-03 +0.00000E+00 -1.11658E-02 +0.00000E+00 -1.18968E-02 +0.00000E+00 -7.42773E-03 +0.00000E+00 +1.57168E-03 +0.00000E+00 +1.22001E-02 +0.00000E+00 +2.00547E-02 +0.00000E+00 +2.08071E-02 +0.00000E+00 +1.21336E-02 +0.00000E+00 -4.74761E-03 +0.00000E+00 -2.46521E-02 +0.00000E+00 -3.95029E-02 +0.00000E+00 -4.07417E-02 +0.00000E+00 -2.23578E-02 +0.00000E+00 +1.65229E-02 +0.00000E+00 +7.05056E-02 +0.00000E+00 +1.28823E-01 +0.00000E+00 +1.78128E-01 +0.00000E+00 +2.06351E-01 +0.00000E+00 +2.06351E-01 +0.00000E+00 +1.78128E-01 +0.00000E+00 +1.28823E-01 +0.00000E+00 +7.05056E-02 +0.00000E+00 +1.65229E-02 +0.00000E+00 -2.23578E-02 +0.00000E+00 -4.07417E-02 +0.00000E+00 -3.95029E-02 +0.00000E+00 -2.46521E-02 +0.00000E+00 -4.74761E-03 +0.00000E+00 +1.21336E-02 +0.00000E+00 +2.08071E-02 +0.00000E+00 +2.00547E-02 +0.00000E+00 +1.22001E-02 +0.00000E+00 +1.57168E-03 +0.00000E+00 -7.42773E-03 +0.00000E+00 -1.18968E-02 +0.00000E+00 -1.11658E-02 +0.00000E+00 -6.57815E-03 +0.00000E+00 -5.88914E-04 +0.00000E+00 +4.35528E-03 +0.00000E+00 +6.69753E-03 +0.00000E+00 +6.13788E-03 +0.00000E+00 +3.46095E-03 +0.00000E+00 +7.16545E-06 +0.00000E+00 -2.93407E-03 +0.00000E+00 -4.56471E-03 +0.00000E+00 -4.72855E-03 +0.00000E+00 -3.78932E-03 +0.00000E+00 -2.35471E-03 +0.00000E+00 -9.92496E-04 +0.00000E+00 -4.84389E-05 +0.00000E+00 +3.95780E-04 +0.00000E+00 +4.52861E-04 +0.00000E+00 +3.12770E-04 +0.00000E+00 +1.53855E-04 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>4</stage_sequence_number>
+      <input_sample_rate>3.2000E+02</input_sample_rate>
+      <decimation_factor>4</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+1.1100E-01</estimated_delay>
+      <correction_applied>+7.7000E-02</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>4</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>5</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>64</number_of_numerators>
+      <numerators>+2.84880E-04 +0.00000E+00 +1.53605E-03 +0.00000E+00 +2.94949E-03 +0.00000E+00 +2.48944E-03 +0.00000E+00 -4.97392E-04 +0.00000E+00 -2.78111E-03 +0.00000E+00 -7.99809E-04 +0.00000E+00 +3.18005E-03 +0.00000E+00 +2.68281E-03 +0.00000E+00 -2.88342E-03 +0.00000E+00 -5.03823E-03 +0.00000E+00 +1.32459E-03 +0.00000E+00 +7.31891E-03 +0.00000E+00 +1.80785E-03 +0.00000E+00 -8.72253E-03 +0.00000E+00 -6.49492E-03 +0.00000E+00 +8.29380E-03 +0.00000E+00 +1.22901E-02 +0.00000E+00 -5.07334E-03 +0.00000E+00 -1.82834E-02 +0.00000E+00 -1.77264E-03 +0.00000E+00 +2.31033E-02 +0.00000E+00 +1.29041E-02 +0.00000E+00 -2.48940E-02 +0.00000E+00 -2.89909E-02 +0.00000E+00 +2.10329E-02 +0.00000E+00 +5.16156E-02 +0.00000E+00 -6.54238E-03 +0.00000E+00 -8.73812E-02 +0.00000E+00 -3.62034E-02 +0.00000E+00 +1.84223E-01 +0.00000E+00 +3.99321E-01 +0.00000E+00 +3.99321E-01 +0.00000E+00 +1.84223E-01 +0.00000E+00 -3.62034E-02 +0.00000E+00 -8.73812E-02 +0.00000E+00 -6.54238E-03 +0.00000E+00 +5.16156E-02 +0.00000E+00 +2.10329E-02 +0.00000E+00 -2.89909E-02 +0.00000E+00 -2.48940E-02 +0.00000E+00 +1.29041E-02 +0.00000E+00 +2.31033E-02 +0.00000E+00 -1.77264E-03 +0.00000E+00 -1.82834E-02 +0.00000E+00 -5.07334E-03 +0.00000E+00 +1.22901E-02 +0.00000E+00 +8.29380E-03 +0.00000E+00 -6.49492E-03 +0.00000E+00 -8.72253E-03 +0.00000E+00 +1.80785E-03 +0.00000E+00 +7.31891E-03 +0.00000E+00 +1.32459E-03 +0.00000E+00 -5.03823E-03 +0.00000E+00 -2.88342E-03 +0.00000E+00 +2.68281E-03 +0.00000E+00 +3.18005E-03 +0.00000E+00 -7.99809E-04 +0.00000E+00 -2.78111E-03 +0.00000E+00 -4.97392E-04 +0.00000E+00 +2.48944E-03 +0.00000E+00 +2.94949E-03 +0.00000E+00 +1.53605E-03 +0.00000E+00 +2.84880E-04 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>5</stage_sequence_number>
+      <input_sample_rate>8.0000E+01</input_sample_rate>
+      <decimation_factor>2</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+3.9400E-01</estimated_delay>
+      <correction_applied>+3.7900E-01</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>5</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>0</stage_sequence_number>
+      <sensitivity_gain>+8.44481E+08</sensitivity_gain>
+      <frequency>+2.00000E-02</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <channel_identifier blockette="052">
+      <location_identifier></location_identifier>
+      <channel_identifier>SHN</channel_identifier>
+      <subchannel_identifier>0</subchannel_identifier>
+      <instrument_identifier>/xseed/abbreviation_dictionary_control_header/generic_abbreviation/abbreviation_lookup_code[text()="2"]/parent::*</instrument_identifier>
+      <optional_comment></optional_comment>
+      <units_of_signal_response>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="3"]/parent::*</units_of_signal_response>
+      <units_of_calibration_input>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="1"]/parent::*</units_of_calibration_input>
+      <latitude>+9.029200</latitude>
+      <longitude>+38.765600</longitude>
+      <elevation>+2442.0</elevation>
+      <local_depth>0.0</local_depth>
+      <azimuth>0.0</azimuth>
+      <dip>+0.0</dip>
+      <data_format_identifier_code>/xseed/abbreviation_dictionary_control_header/data_format_dictionary/data_format_identifier_code[text()="1"]/parent::*</data_format_identifier_code>
+      <data_record_length>12</data_record_length>
+      <sample_rate>4.0000E+01</sample_rate>
+      <max_clock_drift>0.0000E+00</max_clock_drift>
+      <number_of_comments>0</number_of_comments>
+      <channel_flags>CG</channel_flags>
+      <start_date>1994-12-11T23:59:59.000000Z</start_date>
+      <end_date>1997-09-15T23:59:59.000000Z</end_date>
+      <update_flag>N</update_flag>
+    </channel_identifier>
+    <response_poles_and_zeros blockette="053">
+      <transfer_function_types>A</transfer_function_types>
+      <stage_sequence_number>1</stage_sequence_number>
+      <stage_signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="3"]/parent::*</stage_signal_input_units>
+      <stage_signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="4"]/parent::*</stage_signal_output_units>
+      <A0_normalization_factor>+3.62270E+16</A0_normalization_factor>
+      <normalization_frequency>+1.00000E-01</normalization_frequency>
+      <number_of_complex_zeros>2</number_of_complex_zeros>
+      <complex_zero>
+        <real_zero>+0.00000E+00</real_zero>
+        <imaginary_zero>+0.00000E+00</imaginary_zero>
+        <real_zero_error>+0.00000E+00</real_zero_error>
+        <imaginary_zero_error>+0.00000E+00</imaginary_zero_error>
+        <real_zero>+0.00000E+00</real_zero>
+        <imaginary_zero>+0.00000E+00</imaginary_zero>
+        <real_zero_error>+0.00000E+00</real_zero_error>
+        <imaginary_zero_error>+0.00000E+00</imaginary_zero_error>
+      </complex_zero>
+      <number_of_complex_poles>9</number_of_complex_poles>
+      <complex_pole>
+        <real_pole>-4.44221E-02</real_pole>
+        <imaginary_pole>+1.23339E-02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.44221E-02</real_pole>
+        <imaginary_pole>-1.23339E-02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-3.09761E+02</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.84726E+03</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.46546E+01</real_pole>
+        <imaginary_pole>+1.37413E+02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.46546E+01</real_pole>
+        <imaginary_pole>-1.37413E+02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.16930E+02</real_pole>
+        <imaginary_pole>+8.49487E+01</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.16930E+02</real_pole>
+        <imaginary_pole>-8.49487E+01</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.44512E+02</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+      </complex_pole>
+    </response_poles_and_zeros>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>1</stage_sequence_number>
+      <sensitivity_gain>+1.98260E+03</sensitivity_gain>
+      <frequency>+5.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>2</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="4"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>0</number_of_numerators>
+      <numerators></numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>2</stage_sequence_number>
+      <input_sample_rate>5.1200E+03</input_sample_rate>
+      <decimation_factor>1</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+0.0000E+00</estimated_delay>
+      <correction_applied>+0.0000E+00</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>2</stage_sequence_number>
+      <sensitivity_gain>+4.19430E+05</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>3</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>64</number_of_numerators>
+      <numerators>-1.09707E-03 +0.00000E+00 -9.93327E-04 +0.00000E+00 -1.33316E-03 +0.00000E+00 -1.70526E-03 +0.00000E+00 -2.05384E-03 +0.00000E+00 -2.35065E-03 +0.00000E+00 -2.57156E-03 +0.00000E+00 -2.69373E-03 +0.00000E+00 -2.69337E-03 +0.00000E+00 -2.54709E-03 +0.00000E+00 -2.23115E-03 +0.00000E+00 -1.72301E-03 +0.00000E+00 -9.99270E-04 +0.00000E+00 -3.46562E-05 +0.00000E+00 +1.21980E-03 +0.00000E+00 +3.11383E-03 +0.00000E+00 +6.89755E-03 +0.00000E+00 +8.96712E-03 +0.00000E+00 +1.23598E-02 +0.00000E+00 +1.60748E-02 +0.00000E+00 +1.99682E-02 +0.00000E+00 +2.39632E-02 +0.00000E+00 +2.79916E-02 +0.00000E+00 +3.19878E-02 +0.00000E+00 +3.58841E-02 +0.00000E+00 +3.96135E-02 +0.00000E+00 +4.31082E-02 +0.00000E+00 +4.63032E-02 +0.00000E+00 +4.91314E-02 +0.00000E+00 +5.15184E-02 +0.00000E+00 +5.33261E-02 +0.00000E+00 +5.35984E-02 +0.00000E+00 +5.35984E-02 +0.00000E+00 +5.33261E-02 +0.00000E+00 +5.15184E-02 +0.00000E+00 +4.91314E-02 +0.00000E+00 +4.63032E-02 +0.00000E+00 +4.31082E-02 +0.00000E+00 +3.96135E-02 +0.00000E+00 +3.58841E-02 +0.00000E+00 +3.19878E-02 +0.00000E+00 +2.79916E-02 +0.00000E+00 +2.39632E-02 +0.00000E+00 +1.99682E-02 +0.00000E+00 +1.60748E-02 +0.00000E+00 +1.23598E-02 +0.00000E+00 +8.96712E-03 +0.00000E+00 +6.89755E-03 +0.00000E+00 +3.11383E-03 +0.00000E+00 +1.21980E-03 +0.00000E+00 -3.46562E-05 +0.00000E+00 -9.99270E-04 +0.00000E+00 -1.72301E-03 +0.00000E+00 -2.23115E-03 +0.00000E+00 -2.54709E-03 +0.00000E+00 -2.69337E-03 +0.00000E+00 -2.69373E-03 +0.00000E+00 -2.57156E-03 +0.00000E+00 -2.35065E-03 +0.00000E+00 -2.05384E-03 +0.00000E+00 -1.70526E-03 +0.00000E+00 -1.33316E-03 +0.00000E+00 -9.93327E-04 +0.00000E+00 -1.09707E-03 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>3</stage_sequence_number>
+      <input_sample_rate>5.1200E+03</input_sample_rate>
+      <decimation_factor>16</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+6.0000E-03</estimated_delay>
+      <correction_applied>+6.0000E-03</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>3</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>4</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>72</number_of_numerators>
+      <numerators>+1.53855E-04 +0.00000E+00 +3.12770E-04 +0.00000E+00 +4.52861E-04 +0.00000E+00 +3.95780E-04 +0.00000E+00 -4.84389E-05 +0.00000E+00 -9.92496E-04 +0.00000E+00 -2.35471E-03 +0.00000E+00 -3.78932E-03 +0.00000E+00 -4.72855E-03 +0.00000E+00 -4.56471E-03 +0.00000E+00 -2.93407E-03 +0.00000E+00 +7.16545E-06 +0.00000E+00 +3.46095E-03 +0.00000E+00 +6.13788E-03 +0.00000E+00 +6.69753E-03 +0.00000E+00 +4.35528E-03 +0.00000E+00 -5.88914E-04 +0.00000E+00 -6.57815E-03 +0.00000E+00 -1.11658E-02 +0.00000E+00 -1.18968E-02 +0.00000E+00 -7.42773E-03 +0.00000E+00 +1.57168E-03 +0.00000E+00 +1.22001E-02 +0.00000E+00 +2.00547E-02 +0.00000E+00 +2.08071E-02 +0.00000E+00 +1.21336E-02 +0.00000E+00 -4.74761E-03 +0.00000E+00 -2.46521E-02 +0.00000E+00 -3.95029E-02 +0.00000E+00 -4.07417E-02 +0.00000E+00 -2.23578E-02 +0.00000E+00 +1.65229E-02 +0.00000E+00 +7.05056E-02 +0.00000E+00 +1.28823E-01 +0.00000E+00 +1.78128E-01 +0.00000E+00 +2.06351E-01 +0.00000E+00 +2.06351E-01 +0.00000E+00 +1.78128E-01 +0.00000E+00 +1.28823E-01 +0.00000E+00 +7.05056E-02 +0.00000E+00 +1.65229E-02 +0.00000E+00 -2.23578E-02 +0.00000E+00 -4.07417E-02 +0.00000E+00 -3.95029E-02 +0.00000E+00 -2.46521E-02 +0.00000E+00 -4.74761E-03 +0.00000E+00 +1.21336E-02 +0.00000E+00 +2.08071E-02 +0.00000E+00 +2.00547E-02 +0.00000E+00 +1.22001E-02 +0.00000E+00 +1.57168E-03 +0.00000E+00 -7.42773E-03 +0.00000E+00 -1.18968E-02 +0.00000E+00 -1.11658E-02 +0.00000E+00 -6.57815E-03 +0.00000E+00 -5.88914E-04 +0.00000E+00 +4.35528E-03 +0.00000E+00 +6.69753E-03 +0.00000E+00 +6.13788E-03 +0.00000E+00 +3.46095E-03 +0.00000E+00 +7.16545E-06 +0.00000E+00 -2.93407E-03 +0.00000E+00 -4.56471E-03 +0.00000E+00 -4.72855E-03 +0.00000E+00 -3.78932E-03 +0.00000E+00 -2.35471E-03 +0.00000E+00 -9.92496E-04 +0.00000E+00 -4.84389E-05 +0.00000E+00 +3.95780E-04 +0.00000E+00 +4.52861E-04 +0.00000E+00 +3.12770E-04 +0.00000E+00 +1.53855E-04 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>4</stage_sequence_number>
+      <input_sample_rate>3.2000E+02</input_sample_rate>
+      <decimation_factor>4</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+1.1100E-01</estimated_delay>
+      <correction_applied>+7.7000E-02</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>4</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>5</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>64</number_of_numerators>
+      <numerators>+2.84880E-04 +0.00000E+00 +1.53605E-03 +0.00000E+00 +2.94949E-03 +0.00000E+00 +2.48944E-03 +0.00000E+00 -4.97392E-04 +0.00000E+00 -2.78111E-03 +0.00000E+00 -7.99809E-04 +0.00000E+00 +3.18005E-03 +0.00000E+00 +2.68281E-03 +0.00000E+00 -2.88342E-03 +0.00000E+00 -5.03823E-03 +0.00000E+00 +1.32459E-03 +0.00000E+00 +7.31891E-03 +0.00000E+00 +1.80785E-03 +0.00000E+00 -8.72253E-03 +0.00000E+00 -6.49492E-03 +0.00000E+00 +8.29380E-03 +0.00000E+00 +1.22901E-02 +0.00000E+00 -5.07334E-03 +0.00000E+00 -1.82834E-02 +0.00000E+00 -1.77264E-03 +0.00000E+00 +2.31033E-02 +0.00000E+00 +1.29041E-02 +0.00000E+00 -2.48940E-02 +0.00000E+00 -2.89909E-02 +0.00000E+00 +2.10329E-02 +0.00000E+00 +5.16156E-02 +0.00000E+00 -6.54238E-03 +0.00000E+00 -8.73812E-02 +0.00000E+00 -3.62034E-02 +0.00000E+00 +1.84223E-01 +0.00000E+00 +3.99321E-01 +0.00000E+00 +3.99321E-01 +0.00000E+00 +1.84223E-01 +0.00000E+00 -3.62034E-02 +0.00000E+00 -8.73812E-02 +0.00000E+00 -6.54238E-03 +0.00000E+00 +5.16156E-02 +0.00000E+00 +2.10329E-02 +0.00000E+00 -2.89909E-02 +0.00000E+00 -2.48940E-02 +0.00000E+00 +1.29041E-02 +0.00000E+00 +2.31033E-02 +0.00000E+00 -1.77264E-03 +0.00000E+00 -1.82834E-02 +0.00000E+00 -5.07334E-03 +0.00000E+00 +1.22901E-02 +0.00000E+00 +8.29380E-03 +0.00000E+00 -6.49492E-03 +0.00000E+00 -8.72253E-03 +0.00000E+00 +1.80785E-03 +0.00000E+00 +7.31891E-03 +0.00000E+00 +1.32459E-03 +0.00000E+00 -5.03823E-03 +0.00000E+00 -2.88342E-03 +0.00000E+00 +2.68281E-03 +0.00000E+00 +3.18005E-03 +0.00000E+00 -7.99809E-04 +0.00000E+00 -2.78111E-03 +0.00000E+00 -4.97392E-04 +0.00000E+00 +2.48944E-03 +0.00000E+00 +2.94949E-03 +0.00000E+00 +1.53605E-03 +0.00000E+00 +2.84880E-04 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>5</stage_sequence_number>
+      <input_sample_rate>8.0000E+01</input_sample_rate>
+      <decimation_factor>2</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+3.9400E-01</estimated_delay>
+      <correction_applied>+3.7900E-01</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>5</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>0</stage_sequence_number>
+      <sensitivity_gain>+8.31563E+08</sensitivity_gain>
+      <frequency>+5.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <channel_identifier blockette="052">
+      <location_identifier></location_identifier>
+      <channel_identifier>SHE</channel_identifier>
+      <subchannel_identifier>0</subchannel_identifier>
+      <instrument_identifier>/xseed/abbreviation_dictionary_control_header/generic_abbreviation/abbreviation_lookup_code[text()="2"]/parent::*</instrument_identifier>
+      <optional_comment></optional_comment>
+      <units_of_signal_response>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="3"]/parent::*</units_of_signal_response>
+      <units_of_calibration_input>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="1"]/parent::*</units_of_calibration_input>
+      <latitude>+9.029200</latitude>
+      <longitude>+38.765600</longitude>
+      <elevation>+2442.0</elevation>
+      <local_depth>0.0</local_depth>
+      <azimuth>90.0</azimuth>
+      <dip>+0.0</dip>
+      <data_format_identifier_code>/xseed/abbreviation_dictionary_control_header/data_format_dictionary/data_format_identifier_code[text()="1"]/parent::*</data_format_identifier_code>
+      <data_record_length>12</data_record_length>
+      <sample_rate>4.0000E+01</sample_rate>
+      <max_clock_drift>0.0000E+00</max_clock_drift>
+      <number_of_comments>0</number_of_comments>
+      <channel_flags>CG</channel_flags>
+      <start_date>1994-12-11T23:59:59.000000Z</start_date>
+      <end_date>1997-09-15T23:59:59.000000Z</end_date>
+      <update_flag>N</update_flag>
+    </channel_identifier>
+    <response_poles_and_zeros blockette="053">
+      <transfer_function_types>A</transfer_function_types>
+      <stage_sequence_number>1</stage_sequence_number>
+      <stage_signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="3"]/parent::*</stage_signal_input_units>
+      <stage_signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="4"]/parent::*</stage_signal_output_units>
+      <A0_normalization_factor>+3.62270E+16</A0_normalization_factor>
+      <normalization_frequency>+1.00000E-01</normalization_frequency>
+      <number_of_complex_zeros>2</number_of_complex_zeros>
+      <complex_zero>
+        <real_zero>+0.00000E+00</real_zero>
+        <imaginary_zero>+0.00000E+00</imaginary_zero>
+        <real_zero_error>+0.00000E+00</real_zero_error>
+        <imaginary_zero_error>+0.00000E+00</imaginary_zero_error>
+        <real_zero>+0.00000E+00</real_zero>
+        <imaginary_zero>+0.00000E+00</imaginary_zero>
+        <real_zero_error>+0.00000E+00</real_zero_error>
+        <imaginary_zero_error>+0.00000E+00</imaginary_zero_error>
+      </complex_zero>
+      <number_of_complex_poles>9</number_of_complex_poles>
+      <complex_pole>
+        <real_pole>-4.44221E-02</real_pole>
+        <imaginary_pole>+1.23339E-02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.44221E-02</real_pole>
+        <imaginary_pole>-1.23339E-02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-3.09761E+02</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.84726E+03</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.46546E+01</real_pole>
+        <imaginary_pole>+1.37413E+02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.46546E+01</real_pole>
+        <imaginary_pole>-1.37413E+02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.16930E+02</real_pole>
+        <imaginary_pole>+8.49487E+01</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.16930E+02</real_pole>
+        <imaginary_pole>-8.49487E+01</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.44512E+02</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+      </complex_pole>
+    </response_poles_and_zeros>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>1</stage_sequence_number>
+      <sensitivity_gain>+2.01620E+03</sensitivity_gain>
+      <frequency>+5.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>2</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="4"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>0</number_of_numerators>
+      <numerators></numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>2</stage_sequence_number>
+      <input_sample_rate>5.1200E+03</input_sample_rate>
+      <decimation_factor>1</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+0.0000E+00</estimated_delay>
+      <correction_applied>+0.0000E+00</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>2</stage_sequence_number>
+      <sensitivity_gain>+4.19430E+05</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>3</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>64</number_of_numerators>
+      <numerators>-1.09707E-03 +0.00000E+00 -9.93327E-04 +0.00000E+00 -1.33316E-03 +0.00000E+00 -1.70526E-03 +0.00000E+00 -2.05384E-03 +0.00000E+00 -2.35065E-03 +0.00000E+00 -2.57156E-03 +0.00000E+00 -2.69373E-03 +0.00000E+00 -2.69337E-03 +0.00000E+00 -2.54709E-03 +0.00000E+00 -2.23115E-03 +0.00000E+00 -1.72301E-03 +0.00000E+00 -9.99270E-04 +0.00000E+00 -3.46562E-05 +0.00000E+00 +1.21980E-03 +0.00000E+00 +3.11383E-03 +0.00000E+00 +6.89755E-03 +0.00000E+00 +8.96712E-03 +0.00000E+00 +1.23598E-02 +0.00000E+00 +1.60748E-02 +0.00000E+00 +1.99682E-02 +0.00000E+00 +2.39632E-02 +0.00000E+00 +2.79916E-02 +0.00000E+00 +3.19878E-02 +0.00000E+00 +3.58841E-02 +0.00000E+00 +3.96135E-02 +0.00000E+00 +4.31082E-02 +0.00000E+00 +4.63032E-02 +0.00000E+00 +4.91314E-02 +0.00000E+00 +5.15184E-02 +0.00000E+00 +5.33261E-02 +0.00000E+00 +5.35984E-02 +0.00000E+00 +5.35984E-02 +0.00000E+00 +5.33261E-02 +0.00000E+00 +5.15184E-02 +0.00000E+00 +4.91314E-02 +0.00000E+00 +4.63032E-02 +0.00000E+00 +4.31082E-02 +0.00000E+00 +3.96135E-02 +0.00000E+00 +3.58841E-02 +0.00000E+00 +3.19878E-02 +0.00000E+00 +2.79916E-02 +0.00000E+00 +2.39632E-02 +0.00000E+00 +1.99682E-02 +0.00000E+00 +1.60748E-02 +0.00000E+00 +1.23598E-02 +0.00000E+00 +8.96712E-03 +0.00000E+00 +6.89755E-03 +0.00000E+00 +3.11383E-03 +0.00000E+00 +1.21980E-03 +0.00000E+00 -3.46562E-05 +0.00000E+00 -9.99270E-04 +0.00000E+00 -1.72301E-03 +0.00000E+00 -2.23115E-03 +0.00000E+00 -2.54709E-03 +0.00000E+00 -2.69337E-03 +0.00000E+00 -2.69373E-03 +0.00000E+00 -2.57156E-03 +0.00000E+00 -2.35065E-03 +0.00000E+00 -2.05384E-03 +0.00000E+00 -1.70526E-03 +0.00000E+00 -1.33316E-03 +0.00000E+00 -9.93327E-04 +0.00000E+00 -1.09707E-03 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>3</stage_sequence_number>
+      <input_sample_rate>5.1200E+03</input_sample_rate>
+      <decimation_factor>16</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+6.0000E-03</estimated_delay>
+      <correction_applied>+6.0000E-03</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>3</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>4</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>72</number_of_numerators>
+      <numerators>+1.53855E-04 +0.00000E+00 +3.12770E-04 +0.00000E+00 +4.52861E-04 +0.00000E+00 +3.95780E-04 +0.00000E+00 -4.84389E-05 +0.00000E+00 -9.92496E-04 +0.00000E+00 -2.35471E-03 +0.00000E+00 -3.78932E-03 +0.00000E+00 -4.72855E-03 +0.00000E+00 -4.56471E-03 +0.00000E+00 -2.93407E-03 +0.00000E+00 +7.16545E-06 +0.00000E+00 +3.46095E-03 +0.00000E+00 +6.13788E-03 +0.00000E+00 +6.69753E-03 +0.00000E+00 +4.35528E-03 +0.00000E+00 -5.88914E-04 +0.00000E+00 -6.57815E-03 +0.00000E+00 -1.11658E-02 +0.00000E+00 -1.18968E-02 +0.00000E+00 -7.42773E-03 +0.00000E+00 +1.57168E-03 +0.00000E+00 +1.22001E-02 +0.00000E+00 +2.00547E-02 +0.00000E+00 +2.08071E-02 +0.00000E+00 +1.21336E-02 +0.00000E+00 -4.74761E-03 +0.00000E+00 -2.46521E-02 +0.00000E+00 -3.95029E-02 +0.00000E+00 -4.07417E-02 +0.00000E+00 -2.23578E-02 +0.00000E+00 +1.65229E-02 +0.00000E+00 +7.05056E-02 +0.00000E+00 +1.28823E-01 +0.00000E+00 +1.78128E-01 +0.00000E+00 +2.06351E-01 +0.00000E+00 +2.06351E-01 +0.00000E+00 +1.78128E-01 +0.00000E+00 +1.28823E-01 +0.00000E+00 +7.05056E-02 +0.00000E+00 +1.65229E-02 +0.00000E+00 -2.23578E-02 +0.00000E+00 -4.07417E-02 +0.00000E+00 -3.95029E-02 +0.00000E+00 -2.46521E-02 +0.00000E+00 -4.74761E-03 +0.00000E+00 +1.21336E-02 +0.00000E+00 +2.08071E-02 +0.00000E+00 +2.00547E-02 +0.00000E+00 +1.22001E-02 +0.00000E+00 +1.57168E-03 +0.00000E+00 -7.42773E-03 +0.00000E+00 -1.18968E-02 +0.00000E+00 -1.11658E-02 +0.00000E+00 -6.57815E-03 +0.00000E+00 -5.88914E-04 +0.00000E+00 +4.35528E-03 +0.00000E+00 +6.69753E-03 +0.00000E+00 +6.13788E-03 +0.00000E+00 +3.46095E-03 +0.00000E+00 +7.16545E-06 +0.00000E+00 -2.93407E-03 +0.00000E+00 -4.56471E-03 +0.00000E+00 -4.72855E-03 +0.00000E+00 -3.78932E-03 +0.00000E+00 -2.35471E-03 +0.00000E+00 -9.92496E-04 +0.00000E+00 -4.84389E-05 +0.00000E+00 +3.95780E-04 +0.00000E+00 +4.52861E-04 +0.00000E+00 +3.12770E-04 +0.00000E+00 +1.53855E-04 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>4</stage_sequence_number>
+      <input_sample_rate>3.2000E+02</input_sample_rate>
+      <decimation_factor>4</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+1.1100E-01</estimated_delay>
+      <correction_applied>+7.7000E-02</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>4</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>5</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>64</number_of_numerators>
+      <numerators>+2.84880E-04 +0.00000E+00 +1.53605E-03 +0.00000E+00 +2.94949E-03 +0.00000E+00 +2.48944E-03 +0.00000E+00 -4.97392E-04 +0.00000E+00 -2.78111E-03 +0.00000E+00 -7.99809E-04 +0.00000E+00 +3.18005E-03 +0.00000E+00 +2.68281E-03 +0.00000E+00 -2.88342E-03 +0.00000E+00 -5.03823E-03 +0.00000E+00 +1.32459E-03 +0.00000E+00 +7.31891E-03 +0.00000E+00 +1.80785E-03 +0.00000E+00 -8.72253E-03 +0.00000E+00 -6.49492E-03 +0.00000E+00 +8.29380E-03 +0.00000E+00 +1.22901E-02 +0.00000E+00 -5.07334E-03 +0.00000E+00 -1.82834E-02 +0.00000E+00 -1.77264E-03 +0.00000E+00 +2.31033E-02 +0.00000E+00 +1.29041E-02 +0.00000E+00 -2.48940E-02 +0.00000E+00 -2.89909E-02 +0.00000E+00 +2.10329E-02 +0.00000E+00 +5.16156E-02 +0.00000E+00 -6.54238E-03 +0.00000E+00 -8.73812E-02 +0.00000E+00 -3.62034E-02 +0.00000E+00 +1.84223E-01 +0.00000E+00 +3.99321E-01 +0.00000E+00 +3.99321E-01 +0.00000E+00 +1.84223E-01 +0.00000E+00 -3.62034E-02 +0.00000E+00 -8.73812E-02 +0.00000E+00 -6.54238E-03 +0.00000E+00 +5.16156E-02 +0.00000E+00 +2.10329E-02 +0.00000E+00 -2.89909E-02 +0.00000E+00 -2.48940E-02 +0.00000E+00 +1.29041E-02 +0.00000E+00 +2.31033E-02 +0.00000E+00 -1.77264E-03 +0.00000E+00 -1.82834E-02 +0.00000E+00 -5.07334E-03 +0.00000E+00 +1.22901E-02 +0.00000E+00 +8.29380E-03 +0.00000E+00 -6.49492E-03 +0.00000E+00 -8.72253E-03 +0.00000E+00 +1.80785E-03 +0.00000E+00 +7.31891E-03 +0.00000E+00 +1.32459E-03 +0.00000E+00 -5.03823E-03 +0.00000E+00 -2.88342E-03 +0.00000E+00 +2.68281E-03 +0.00000E+00 +3.18005E-03 +0.00000E+00 -7.99809E-04 +0.00000E+00 -2.78111E-03 +0.00000E+00 -4.97392E-04 +0.00000E+00 +2.48944E-03 +0.00000E+00 +2.94949E-03 +0.00000E+00 +1.53605E-03 +0.00000E+00 +2.84880E-04 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>5</stage_sequence_number>
+      <input_sample_rate>8.0000E+01</input_sample_rate>
+      <decimation_factor>2</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+3.9400E-01</estimated_delay>
+      <correction_applied>+3.7900E-01</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>5</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>0</stage_sequence_number>
+      <sensitivity_gain>+8.45656E+08</sensitivity_gain>
+      <frequency>+5.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <channel_identifier blockette="052">
+      <location_identifier></location_identifier>
+      <channel_identifier>EHZ</channel_identifier>
+      <subchannel_identifier>0</subchannel_identifier>
+      <instrument_identifier>/xseed/abbreviation_dictionary_control_header/generic_abbreviation/abbreviation_lookup_code[text()="2"]/parent::*</instrument_identifier>
+      <optional_comment></optional_comment>
+      <units_of_signal_response>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="3"]/parent::*</units_of_signal_response>
+      <units_of_calibration_input>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="1"]/parent::*</units_of_calibration_input>
+      <latitude>+9.029200</latitude>
+      <longitude>+38.765600</longitude>
+      <elevation>+2442.0</elevation>
+      <local_depth>0.0</local_depth>
+      <azimuth>0.0</azimuth>
+      <dip>-90.0</dip>
+      <data_format_identifier_code>/xseed/abbreviation_dictionary_control_header/data_format_dictionary/data_format_identifier_code[text()="1"]/parent::*</data_format_identifier_code>
+      <data_record_length>12</data_record_length>
+      <sample_rate>8.0000E+01</sample_rate>
+      <max_clock_drift>0.0000E+00</max_clock_drift>
+      <number_of_comments>0</number_of_comments>
+      <channel_flags>TG</channel_flags>
+      <start_date>1994-12-11T23:59:59.000000Z</start_date>
+      <end_date>1997-09-15T23:59:59.000000Z</end_date>
+      <update_flag>N</update_flag>
+    </channel_identifier>
+    <response_poles_and_zeros blockette="053">
+      <transfer_function_types>A</transfer_function_types>
+      <stage_sequence_number>1</stage_sequence_number>
+      <stage_signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="3"]/parent::*</stage_signal_input_units>
+      <stage_signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="4"]/parent::*</stage_signal_output_units>
+      <A0_normalization_factor>+3.62270E+16</A0_normalization_factor>
+      <normalization_frequency>+1.00000E-01</normalization_frequency>
+      <number_of_complex_zeros>2</number_of_complex_zeros>
+      <complex_zero>
+        <real_zero>+0.00000E+00</real_zero>
+        <imaginary_zero>+0.00000E+00</imaginary_zero>
+        <real_zero_error>+0.00000E+00</real_zero_error>
+        <imaginary_zero_error>+0.00000E+00</imaginary_zero_error>
+        <real_zero>+0.00000E+00</real_zero>
+        <imaginary_zero>+0.00000E+00</imaginary_zero>
+        <real_zero_error>+0.00000E+00</real_zero_error>
+        <imaginary_zero_error>+0.00000E+00</imaginary_zero_error>
+      </complex_zero>
+      <number_of_complex_poles>9</number_of_complex_poles>
+      <complex_pole>
+        <real_pole>-4.44221E-02</real_pole>
+        <imaginary_pole>+1.23339E-02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.44221E-02</real_pole>
+        <imaginary_pole>-1.23339E-02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-3.09761E+02</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.84726E+03</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.46546E+01</real_pole>
+        <imaginary_pole>+1.37413E+02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.46546E+01</real_pole>
+        <imaginary_pole>-1.37413E+02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.16930E+02</real_pole>
+        <imaginary_pole>+8.49487E+01</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.16930E+02</real_pole>
+        <imaginary_pole>-8.49487E+01</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.44512E+02</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+      </complex_pole>
+    </response_poles_and_zeros>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>1</stage_sequence_number>
+      <sensitivity_gain>+2.01340E+03</sensitivity_gain>
+      <frequency>+5.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>2</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="4"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>0</number_of_numerators>
+      <numerators></numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>2</stage_sequence_number>
+      <input_sample_rate>5.1200E+03</input_sample_rate>
+      <decimation_factor>1</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+0.0000E+00</estimated_delay>
+      <correction_applied>+0.0000E+00</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>2</stage_sequence_number>
+      <sensitivity_gain>+4.19430E+05</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>3</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>64</number_of_numerators>
+      <numerators>-1.09707E-03 +0.00000E+00 -9.93327E-04 +0.00000E+00 -1.33316E-03 +0.00000E+00 -1.70526E-03 +0.00000E+00 -2.05384E-03 +0.00000E+00 -2.35065E-03 +0.00000E+00 -2.57156E-03 +0.00000E+00 -2.69373E-03 +0.00000E+00 -2.69337E-03 +0.00000E+00 -2.54709E-03 +0.00000E+00 -2.23115E-03 +0.00000E+00 -1.72301E-03 +0.00000E+00 -9.99270E-04 +0.00000E+00 -3.46562E-05 +0.00000E+00 +1.21980E-03 +0.00000E+00 +3.11383E-03 +0.00000E+00 +6.89755E-03 +0.00000E+00 +8.96712E-03 +0.00000E+00 +1.23598E-02 +0.00000E+00 +1.60748E-02 +0.00000E+00 +1.99682E-02 +0.00000E+00 +2.39632E-02 +0.00000E+00 +2.79916E-02 +0.00000E+00 +3.19878E-02 +0.00000E+00 +3.58841E-02 +0.00000E+00 +3.96135E-02 +0.00000E+00 +4.31082E-02 +0.00000E+00 +4.63032E-02 +0.00000E+00 +4.91314E-02 +0.00000E+00 +5.15184E-02 +0.00000E+00 +5.33261E-02 +0.00000E+00 +5.35984E-02 +0.00000E+00 +5.35984E-02 +0.00000E+00 +5.33261E-02 +0.00000E+00 +5.15184E-02 +0.00000E+00 +4.91314E-02 +0.00000E+00 +4.63032E-02 +0.00000E+00 +4.31082E-02 +0.00000E+00 +3.96135E-02 +0.00000E+00 +3.58841E-02 +0.00000E+00 +3.19878E-02 +0.00000E+00 +2.79916E-02 +0.00000E+00 +2.39632E-02 +0.00000E+00 +1.99682E-02 +0.00000E+00 +1.60748E-02 +0.00000E+00 +1.23598E-02 +0.00000E+00 +8.96712E-03 +0.00000E+00 +6.89755E-03 +0.00000E+00 +3.11383E-03 +0.00000E+00 +1.21980E-03 +0.00000E+00 -3.46562E-05 +0.00000E+00 -9.99270E-04 +0.00000E+00 -1.72301E-03 +0.00000E+00 -2.23115E-03 +0.00000E+00 -2.54709E-03 +0.00000E+00 -2.69337E-03 +0.00000E+00 -2.69373E-03 +0.00000E+00 -2.57156E-03 +0.00000E+00 -2.35065E-03 +0.00000E+00 -2.05384E-03 +0.00000E+00 -1.70526E-03 +0.00000E+00 -1.33316E-03 +0.00000E+00 -9.93327E-04 +0.00000E+00 -1.09707E-03 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>3</stage_sequence_number>
+      <input_sample_rate>5.1200E+03</input_sample_rate>
+      <decimation_factor>16</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+6.0000E-03</estimated_delay>
+      <correction_applied>+6.0000E-03</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>3</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>4</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>72</number_of_numerators>
+      <numerators>+1.53855E-04 +0.00000E+00 +3.12770E-04 +0.00000E+00 +4.52861E-04 +0.00000E+00 +3.95780E-04 +0.00000E+00 -4.84389E-05 +0.00000E+00 -9.92496E-04 +0.00000E+00 -2.35471E-03 +0.00000E+00 -3.78932E-03 +0.00000E+00 -4.72855E-03 +0.00000E+00 -4.56471E-03 +0.00000E+00 -2.93407E-03 +0.00000E+00 +7.16545E-06 +0.00000E+00 +3.46095E-03 +0.00000E+00 +6.13788E-03 +0.00000E+00 +6.69753E-03 +0.00000E+00 +4.35528E-03 +0.00000E+00 -5.88914E-04 +0.00000E+00 -6.57815E-03 +0.00000E+00 -1.11658E-02 +0.00000E+00 -1.18968E-02 +0.00000E+00 -7.42773E-03 +0.00000E+00 +1.57168E-03 +0.00000E+00 +1.22001E-02 +0.00000E+00 +2.00547E-02 +0.00000E+00 +2.08071E-02 +0.00000E+00 +1.21336E-02 +0.00000E+00 -4.74761E-03 +0.00000E+00 -2.46521E-02 +0.00000E+00 -3.95029E-02 +0.00000E+00 -4.07417E-02 +0.00000E+00 -2.23578E-02 +0.00000E+00 +1.65229E-02 +0.00000E+00 +7.05056E-02 +0.00000E+00 +1.28823E-01 +0.00000E+00 +1.78128E-01 +0.00000E+00 +2.06351E-01 +0.00000E+00 +2.06351E-01 +0.00000E+00 +1.78128E-01 +0.00000E+00 +1.28823E-01 +0.00000E+00 +7.05056E-02 +0.00000E+00 +1.65229E-02 +0.00000E+00 -2.23578E-02 +0.00000E+00 -4.07417E-02 +0.00000E+00 -3.95029E-02 +0.00000E+00 -2.46521E-02 +0.00000E+00 -4.74761E-03 +0.00000E+00 +1.21336E-02 +0.00000E+00 +2.08071E-02 +0.00000E+00 +2.00547E-02 +0.00000E+00 +1.22001E-02 +0.00000E+00 +1.57168E-03 +0.00000E+00 -7.42773E-03 +0.00000E+00 -1.18968E-02 +0.00000E+00 -1.11658E-02 +0.00000E+00 -6.57815E-03 +0.00000E+00 -5.88914E-04 +0.00000E+00 +4.35528E-03 +0.00000E+00 +6.69753E-03 +0.00000E+00 +6.13788E-03 +0.00000E+00 +3.46095E-03 +0.00000E+00 +7.16545E-06 +0.00000E+00 -2.93407E-03 +0.00000E+00 -4.56471E-03 +0.00000E+00 -4.72855E-03 +0.00000E+00 -3.78932E-03 +0.00000E+00 -2.35471E-03 +0.00000E+00 -9.92496E-04 +0.00000E+00 -4.84389E-05 +0.00000E+00 +3.95780E-04 +0.00000E+00 +4.52861E-04 +0.00000E+00 +3.12770E-04 +0.00000E+00 +1.53855E-04 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>4</stage_sequence_number>
+      <input_sample_rate>3.2000E+02</input_sample_rate>
+      <decimation_factor>4</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+1.1100E-01</estimated_delay>
+      <correction_applied>+7.7000E-02</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>4</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>0</stage_sequence_number>
+      <sensitivity_gain>+8.44481E+08</sensitivity_gain>
+      <frequency>+5.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <channel_identifier blockette="052">
+      <location_identifier></location_identifier>
+      <channel_identifier>EHN</channel_identifier>
+      <subchannel_identifier>0</subchannel_identifier>
+      <instrument_identifier>/xseed/abbreviation_dictionary_control_header/generic_abbreviation/abbreviation_lookup_code[text()="2"]/parent::*</instrument_identifier>
+      <optional_comment></optional_comment>
+      <units_of_signal_response>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="3"]/parent::*</units_of_signal_response>
+      <units_of_calibration_input>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="1"]/parent::*</units_of_calibration_input>
+      <latitude>+9.029200</latitude>
+      <longitude>+38.765600</longitude>
+      <elevation>+2442.0</elevation>
+      <local_depth>0.0</local_depth>
+      <azimuth>0.0</azimuth>
+      <dip>+0.0</dip>
+      <data_format_identifier_code>/xseed/abbreviation_dictionary_control_header/data_format_dictionary/data_format_identifier_code[text()="1"]/parent::*</data_format_identifier_code>
+      <data_record_length>12</data_record_length>
+      <sample_rate>8.0000E+01</sample_rate>
+      <max_clock_drift>0.0000E+00</max_clock_drift>
+      <number_of_comments>0</number_of_comments>
+      <channel_flags>TG</channel_flags>
+      <start_date>1994-12-11T23:59:59.000000Z</start_date>
+      <end_date>1997-09-15T23:59:59.000000Z</end_date>
+      <update_flag>N</update_flag>
+    </channel_identifier>
+    <response_poles_and_zeros blockette="053">
+      <transfer_function_types>A</transfer_function_types>
+      <stage_sequence_number>1</stage_sequence_number>
+      <stage_signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="3"]/parent::*</stage_signal_input_units>
+      <stage_signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="4"]/parent::*</stage_signal_output_units>
+      <A0_normalization_factor>+3.62270E+16</A0_normalization_factor>
+      <normalization_frequency>+1.00000E-01</normalization_frequency>
+      <number_of_complex_zeros>2</number_of_complex_zeros>
+      <complex_zero>
+        <real_zero>+0.00000E+00</real_zero>
+        <imaginary_zero>+0.00000E+00</imaginary_zero>
+        <real_zero_error>+0.00000E+00</real_zero_error>
+        <imaginary_zero_error>+0.00000E+00</imaginary_zero_error>
+        <real_zero>+0.00000E+00</real_zero>
+        <imaginary_zero>+0.00000E+00</imaginary_zero>
+        <real_zero_error>+0.00000E+00</real_zero_error>
+        <imaginary_zero_error>+0.00000E+00</imaginary_zero_error>
+      </complex_zero>
+      <number_of_complex_poles>9</number_of_complex_poles>
+      <complex_pole>
+        <real_pole>-4.44221E-02</real_pole>
+        <imaginary_pole>+1.23339E-02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.44221E-02</real_pole>
+        <imaginary_pole>-1.23339E-02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-3.09761E+02</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.84726E+03</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.46546E+01</real_pole>
+        <imaginary_pole>+1.37413E+02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.46546E+01</real_pole>
+        <imaginary_pole>-1.37413E+02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.16930E+02</real_pole>
+        <imaginary_pole>+8.49487E+01</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.16930E+02</real_pole>
+        <imaginary_pole>-8.49487E+01</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.44512E+02</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+      </complex_pole>
+    </response_poles_and_zeros>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>1</stage_sequence_number>
+      <sensitivity_gain>+1.98260E+03</sensitivity_gain>
+      <frequency>+5.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>2</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="4"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>0</number_of_numerators>
+      <numerators></numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>2</stage_sequence_number>
+      <input_sample_rate>5.1200E+03</input_sample_rate>
+      <decimation_factor>1</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+0.0000E+00</estimated_delay>
+      <correction_applied>+0.0000E+00</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>2</stage_sequence_number>
+      <sensitivity_gain>+4.19430E+05</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>3</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>64</number_of_numerators>
+      <numerators>-1.09707E-03 +0.00000E+00 -9.93327E-04 +0.00000E+00 -1.33316E-03 +0.00000E+00 -1.70526E-03 +0.00000E+00 -2.05384E-03 +0.00000E+00 -2.35065E-03 +0.00000E+00 -2.57156E-03 +0.00000E+00 -2.69373E-03 +0.00000E+00 -2.69337E-03 +0.00000E+00 -2.54709E-03 +0.00000E+00 -2.23115E-03 +0.00000E+00 -1.72301E-03 +0.00000E+00 -9.99270E-04 +0.00000E+00 -3.46562E-05 +0.00000E+00 +1.21980E-03 +0.00000E+00 +3.11383E-03 +0.00000E+00 +6.89755E-03 +0.00000E+00 +8.96712E-03 +0.00000E+00 +1.23598E-02 +0.00000E+00 +1.60748E-02 +0.00000E+00 +1.99682E-02 +0.00000E+00 +2.39632E-02 +0.00000E+00 +2.79916E-02 +0.00000E+00 +3.19878E-02 +0.00000E+00 +3.58841E-02 +0.00000E+00 +3.96135E-02 +0.00000E+00 +4.31082E-02 +0.00000E+00 +4.63032E-02 +0.00000E+00 +4.91314E-02 +0.00000E+00 +5.15184E-02 +0.00000E+00 +5.33261E-02 +0.00000E+00 +5.35984E-02 +0.00000E+00 +5.35984E-02 +0.00000E+00 +5.33261E-02 +0.00000E+00 +5.15184E-02 +0.00000E+00 +4.91314E-02 +0.00000E+00 +4.63032E-02 +0.00000E+00 +4.31082E-02 +0.00000E+00 +3.96135E-02 +0.00000E+00 +3.58841E-02 +0.00000E+00 +3.19878E-02 +0.00000E+00 +2.79916E-02 +0.00000E+00 +2.39632E-02 +0.00000E+00 +1.99682E-02 +0.00000E+00 +1.60748E-02 +0.00000E+00 +1.23598E-02 +0.00000E+00 +8.96712E-03 +0.00000E+00 +6.89755E-03 +0.00000E+00 +3.11383E-03 +0.00000E+00 +1.21980E-03 +0.00000E+00 -3.46562E-05 +0.00000E+00 -9.99270E-04 +0.00000E+00 -1.72301E-03 +0.00000E+00 -2.23115E-03 +0.00000E+00 -2.54709E-03 +0.00000E+00 -2.69337E-03 +0.00000E+00 -2.69373E-03 +0.00000E+00 -2.57156E-03 +0.00000E+00 -2.35065E-03 +0.00000E+00 -2.05384E-03 +0.00000E+00 -1.70526E-03 +0.00000E+00 -1.33316E-03 +0.00000E+00 -9.93327E-04 +0.00000E+00 -1.09707E-03 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>3</stage_sequence_number>
+      <input_sample_rate>5.1200E+03</input_sample_rate>
+      <decimation_factor>16</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+6.0000E-03</estimated_delay>
+      <correction_applied>+6.0000E-03</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>3</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>4</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>72</number_of_numerators>
+      <numerators>+1.53855E-04 +0.00000E+00 +3.12770E-04 +0.00000E+00 +4.52861E-04 +0.00000E+00 +3.95780E-04 +0.00000E+00 -4.84389E-05 +0.00000E+00 -9.92496E-04 +0.00000E+00 -2.35471E-03 +0.00000E+00 -3.78932E-03 +0.00000E+00 -4.72855E-03 +0.00000E+00 -4.56471E-03 +0.00000E+00 -2.93407E-03 +0.00000E+00 +7.16545E-06 +0.00000E+00 +3.46095E-03 +0.00000E+00 +6.13788E-03 +0.00000E+00 +6.69753E-03 +0.00000E+00 +4.35528E-03 +0.00000E+00 -5.88914E-04 +0.00000E+00 -6.57815E-03 +0.00000E+00 -1.11658E-02 +0.00000E+00 -1.18968E-02 +0.00000E+00 -7.42773E-03 +0.00000E+00 +1.57168E-03 +0.00000E+00 +1.22001E-02 +0.00000E+00 +2.00547E-02 +0.00000E+00 +2.08071E-02 +0.00000E+00 +1.21336E-02 +0.00000E+00 -4.74761E-03 +0.00000E+00 -2.46521E-02 +0.00000E+00 -3.95029E-02 +0.00000E+00 -4.07417E-02 +0.00000E+00 -2.23578E-02 +0.00000E+00 +1.65229E-02 +0.00000E+00 +7.05056E-02 +0.00000E+00 +1.28823E-01 +0.00000E+00 +1.78128E-01 +0.00000E+00 +2.06351E-01 +0.00000E+00 +2.06351E-01 +0.00000E+00 +1.78128E-01 +0.00000E+00 +1.28823E-01 +0.00000E+00 +7.05056E-02 +0.00000E+00 +1.65229E-02 +0.00000E+00 -2.23578E-02 +0.00000E+00 -4.07417E-02 +0.00000E+00 -3.95029E-02 +0.00000E+00 -2.46521E-02 +0.00000E+00 -4.74761E-03 +0.00000E+00 +1.21336E-02 +0.00000E+00 +2.08071E-02 +0.00000E+00 +2.00547E-02 +0.00000E+00 +1.22001E-02 +0.00000E+00 +1.57168E-03 +0.00000E+00 -7.42773E-03 +0.00000E+00 -1.18968E-02 +0.00000E+00 -1.11658E-02 +0.00000E+00 -6.57815E-03 +0.00000E+00 -5.88914E-04 +0.00000E+00 +4.35528E-03 +0.00000E+00 +6.69753E-03 +0.00000E+00 +6.13788E-03 +0.00000E+00 +3.46095E-03 +0.00000E+00 +7.16545E-06 +0.00000E+00 -2.93407E-03 +0.00000E+00 -4.56471E-03 +0.00000E+00 -4.72855E-03 +0.00000E+00 -3.78932E-03 +0.00000E+00 -2.35471E-03 +0.00000E+00 -9.92496E-04 +0.00000E+00 -4.84389E-05 +0.00000E+00 +3.95780E-04 +0.00000E+00 +4.52861E-04 +0.00000E+00 +3.12770E-04 +0.00000E+00 +1.53855E-04 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>4</stage_sequence_number>
+      <input_sample_rate>3.2000E+02</input_sample_rate>
+      <decimation_factor>4</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+1.1100E-01</estimated_delay>
+      <correction_applied>+7.7000E-02</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>4</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>0</stage_sequence_number>
+      <sensitivity_gain>+8.31563E+08</sensitivity_gain>
+      <frequency>+5.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <channel_identifier blockette="052">
+      <location_identifier></location_identifier>
+      <channel_identifier>EHE</channel_identifier>
+      <subchannel_identifier>0</subchannel_identifier>
+      <instrument_identifier>/xseed/abbreviation_dictionary_control_header/generic_abbreviation/abbreviation_lookup_code[text()="2"]/parent::*</instrument_identifier>
+      <optional_comment></optional_comment>
+      <units_of_signal_response>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="3"]/parent::*</units_of_signal_response>
+      <units_of_calibration_input>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="1"]/parent::*</units_of_calibration_input>
+      <latitude>+9.029200</latitude>
+      <longitude>+38.765600</longitude>
+      <elevation>+2442.0</elevation>
+      <local_depth>0.0</local_depth>
+      <azimuth>90.0</azimuth>
+      <dip>+0.0</dip>
+      <data_format_identifier_code>/xseed/abbreviation_dictionary_control_header/data_format_dictionary/data_format_identifier_code[text()="1"]/parent::*</data_format_identifier_code>
+      <data_record_length>12</data_record_length>
+      <sample_rate>8.0000E+01</sample_rate>
+      <max_clock_drift>0.0000E+00</max_clock_drift>
+      <number_of_comments>0</number_of_comments>
+      <channel_flags>TG</channel_flags>
+      <start_date>1994-12-11T23:59:59.000000Z</start_date>
+      <end_date>1997-09-15T23:59:59.000000Z</end_date>
+      <update_flag>N</update_flag>
+    </channel_identifier>
+    <response_poles_and_zeros blockette="053">
+      <transfer_function_types>A</transfer_function_types>
+      <stage_sequence_number>1</stage_sequence_number>
+      <stage_signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="3"]/parent::*</stage_signal_input_units>
+      <stage_signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="4"]/parent::*</stage_signal_output_units>
+      <A0_normalization_factor>+3.62270E+16</A0_normalization_factor>
+      <normalization_frequency>+1.00000E-01</normalization_frequency>
+      <number_of_complex_zeros>2</number_of_complex_zeros>
+      <complex_zero>
+        <real_zero>+0.00000E+00</real_zero>
+        <imaginary_zero>+0.00000E+00</imaginary_zero>
+        <real_zero_error>+0.00000E+00</real_zero_error>
+        <imaginary_zero_error>+0.00000E+00</imaginary_zero_error>
+        <real_zero>+0.00000E+00</real_zero>
+        <imaginary_zero>+0.00000E+00</imaginary_zero>
+        <real_zero_error>+0.00000E+00</real_zero_error>
+        <imaginary_zero_error>+0.00000E+00</imaginary_zero_error>
+      </complex_zero>
+      <number_of_complex_poles>9</number_of_complex_poles>
+      <complex_pole>
+        <real_pole>-4.44221E-02</real_pole>
+        <imaginary_pole>+1.23339E-02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.44221E-02</real_pole>
+        <imaginary_pole>-1.23339E-02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-3.09761E+02</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.84726E+03</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.46546E+01</real_pole>
+        <imaginary_pole>+1.37413E+02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-4.46546E+01</real_pole>
+        <imaginary_pole>-1.37413E+02</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.16930E+02</real_pole>
+        <imaginary_pole>+8.49487E+01</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.16930E+02</real_pole>
+        <imaginary_pole>-8.49487E+01</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+        <real_pole>-1.44512E+02</real_pole>
+        <imaginary_pole>+0.00000E+00</imaginary_pole>
+        <real_pole_error>+0.00000E+00</real_pole_error>
+        <imaginary_pole_error>+0.00000E+00</imaginary_pole_error>
+      </complex_pole>
+    </response_poles_and_zeros>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>1</stage_sequence_number>
+      <sensitivity_gain>+2.01620E+03</sensitivity_gain>
+      <frequency>+5.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>2</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="4"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>0</number_of_numerators>
+      <numerators></numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>2</stage_sequence_number>
+      <input_sample_rate>5.1200E+03</input_sample_rate>
+      <decimation_factor>1</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+0.0000E+00</estimated_delay>
+      <correction_applied>+0.0000E+00</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>2</stage_sequence_number>
+      <sensitivity_gain>+4.19430E+05</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>3</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>64</number_of_numerators>
+      <numerators>-1.09707E-03 +0.00000E+00 -9.93327E-04 +0.00000E+00 -1.33316E-03 +0.00000E+00 -1.70526E-03 +0.00000E+00 -2.05384E-03 +0.00000E+00 -2.35065E-03 +0.00000E+00 -2.57156E-03 +0.00000E+00 -2.69373E-03 +0.00000E+00 -2.69337E-03 +0.00000E+00 -2.54709E-03 +0.00000E+00 -2.23115E-03 +0.00000E+00 -1.72301E-03 +0.00000E+00 -9.99270E-04 +0.00000E+00 -3.46562E-05 +0.00000E+00 +1.21980E-03 +0.00000E+00 +3.11383E-03 +0.00000E+00 +6.89755E-03 +0.00000E+00 +8.96712E-03 +0.00000E+00 +1.23598E-02 +0.00000E+00 +1.60748E-02 +0.00000E+00 +1.99682E-02 +0.00000E+00 +2.39632E-02 +0.00000E+00 +2.79916E-02 +0.00000E+00 +3.19878E-02 +0.00000E+00 +3.58841E-02 +0.00000E+00 +3.96135E-02 +0.00000E+00 +4.31082E-02 +0.00000E+00 +4.63032E-02 +0.00000E+00 +4.91314E-02 +0.00000E+00 +5.15184E-02 +0.00000E+00 +5.33261E-02 +0.00000E+00 +5.35984E-02 +0.00000E+00 +5.35984E-02 +0.00000E+00 +5.33261E-02 +0.00000E+00 +5.15184E-02 +0.00000E+00 +4.91314E-02 +0.00000E+00 +4.63032E-02 +0.00000E+00 +4.31082E-02 +0.00000E+00 +3.96135E-02 +0.00000E+00 +3.58841E-02 +0.00000E+00 +3.19878E-02 +0.00000E+00 +2.79916E-02 +0.00000E+00 +2.39632E-02 +0.00000E+00 +1.99682E-02 +0.00000E+00 +1.60748E-02 +0.00000E+00 +1.23598E-02 +0.00000E+00 +8.96712E-03 +0.00000E+00 +6.89755E-03 +0.00000E+00 +3.11383E-03 +0.00000E+00 +1.21980E-03 +0.00000E+00 -3.46562E-05 +0.00000E+00 -9.99270E-04 +0.00000E+00 -1.72301E-03 +0.00000E+00 -2.23115E-03 +0.00000E+00 -2.54709E-03 +0.00000E+00 -2.69337E-03 +0.00000E+00 -2.69373E-03 +0.00000E+00 -2.57156E-03 +0.00000E+00 -2.35065E-03 +0.00000E+00 -2.05384E-03 +0.00000E+00 -1.70526E-03 +0.00000E+00 -1.33316E-03 +0.00000E+00 -9.93327E-04 +0.00000E+00 -1.09707E-03 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>3</stage_sequence_number>
+      <input_sample_rate>5.1200E+03</input_sample_rate>
+      <decimation_factor>16</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+6.0000E-03</estimated_delay>
+      <correction_applied>+6.0000E-03</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>3</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <response_coefficients blockette="054">
+      <response_type>D</response_type>
+      <stage_sequence_number>4</stage_sequence_number>
+      <signal_input_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_input_units>
+      <signal_output_units>/xseed/abbreviation_dictionary_control_header/units_abbreviations/unit_lookup_code[text()="2"]/parent::*</signal_output_units>
+      <number_of_numerators>72</number_of_numerators>
+      <numerators>+1.53855E-04 +0.00000E+00 +3.12770E-04 +0.00000E+00 +4.52861E-04 +0.00000E+00 +3.95780E-04 +0.00000E+00 -4.84389E-05 +0.00000E+00 -9.92496E-04 +0.00000E+00 -2.35471E-03 +0.00000E+00 -3.78932E-03 +0.00000E+00 -4.72855E-03 +0.00000E+00 -4.56471E-03 +0.00000E+00 -2.93407E-03 +0.00000E+00 +7.16545E-06 +0.00000E+00 +3.46095E-03 +0.00000E+00 +6.13788E-03 +0.00000E+00 +6.69753E-03 +0.00000E+00 +4.35528E-03 +0.00000E+00 -5.88914E-04 +0.00000E+00 -6.57815E-03 +0.00000E+00 -1.11658E-02 +0.00000E+00 -1.18968E-02 +0.00000E+00 -7.42773E-03 +0.00000E+00 +1.57168E-03 +0.00000E+00 +1.22001E-02 +0.00000E+00 +2.00547E-02 +0.00000E+00 +2.08071E-02 +0.00000E+00 +1.21336E-02 +0.00000E+00 -4.74761E-03 +0.00000E+00 -2.46521E-02 +0.00000E+00 -3.95029E-02 +0.00000E+00 -4.07417E-02 +0.00000E+00 -2.23578E-02 +0.00000E+00 +1.65229E-02 +0.00000E+00 +7.05056E-02 +0.00000E+00 +1.28823E-01 +0.00000E+00 +1.78128E-01 +0.00000E+00 +2.06351E-01 +0.00000E+00 +2.06351E-01 +0.00000E+00 +1.78128E-01 +0.00000E+00 +1.28823E-01 +0.00000E+00 +7.05056E-02 +0.00000E+00 +1.65229E-02 +0.00000E+00 -2.23578E-02 +0.00000E+00 -4.07417E-02 +0.00000E+00 -3.95029E-02 +0.00000E+00 -2.46521E-02 +0.00000E+00 -4.74761E-03 +0.00000E+00 +1.21336E-02 +0.00000E+00 +2.08071E-02 +0.00000E+00 +2.00547E-02 +0.00000E+00 +1.22001E-02 +0.00000E+00 +1.57168E-03 +0.00000E+00 -7.42773E-03 +0.00000E+00 -1.18968E-02 +0.00000E+00 -1.11658E-02 +0.00000E+00 -6.57815E-03 +0.00000E+00 -5.88914E-04 +0.00000E+00 +4.35528E-03 +0.00000E+00 +6.69753E-03 +0.00000E+00 +6.13788E-03 +0.00000E+00 +3.46095E-03 +0.00000E+00 +7.16545E-06 +0.00000E+00 -2.93407E-03 +0.00000E+00 -4.56471E-03 +0.00000E+00 -4.72855E-03 +0.00000E+00 -3.78932E-03 +0.00000E+00 -2.35471E-03 +0.00000E+00 -9.92496E-04 +0.00000E+00 -4.84389E-05 +0.00000E+00 +3.95780E-04 +0.00000E+00 +4.52861E-04 +0.00000E+00 +3.12770E-04 +0.00000E+00 +1.53855E-04 +0.00000E+00</numerators>
+      <number_of_denominators>0</number_of_denominators>
+      <denominators></denominators>
+    </response_coefficients>
+    <decimation blockette="057">
+      <stage_sequence_number>4</stage_sequence_number>
+      <input_sample_rate>3.2000E+02</input_sample_rate>
+      <decimation_factor>4</decimation_factor>
+      <decimation_offset>0</decimation_offset>
+      <estimated_delay>+1.1100E-01</estimated_delay>
+      <correction_applied>+7.7000E-02</correction_applied>
+    </decimation>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>4</stage_sequence_number>
+      <sensitivity_gain>+1.00000E+00</sensitivity_gain>
+      <frequency>+0.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+    <channel_sensitivity_gain blockette="058">
+      <stage_sequence_number>0</stage_sequence_number>
+      <sensitivity_gain>+8.45656E+08</sensitivity_gain>
+      <frequency>+5.00000E+00</frequency>
+      <number_of_history_values>0</number_of_history_values>
+      <history/>
+    </channel_sensitivity_gain>
+  </station_control_header>
+</xseed>
